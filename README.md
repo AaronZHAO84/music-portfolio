@@ -1,5 +1,11 @@
 # Aaron，Z作品 · milestone1
 
+## 在线预览
+
+[打开音乐作品主页](https://aaronzhao84.github.io/music-portfolio/)
+
+GitHub README 不适合直接嵌入可交互的完整 HTML 页面：GitHub 会对 `iframe` 等嵌入内容进行安全过滤。这里使用在线预览链接，点击后进入完整的 GitHub Pages 页面；如果需要在 README 中展示静态效果，可以另外加入截图并链接到上面的页面。
+
 这是音乐创作主页当前版本的完整快照，后续上传 GitHub Pages 时可将本目录内容作为网站根目录。
 
 ## 目录
