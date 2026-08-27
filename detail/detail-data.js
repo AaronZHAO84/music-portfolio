@@ -23,3 +23,12 @@ Object.assign(songs.years,{context:'把情绪放回饭桌、灯影与一段段�
 Object.assign(songs.tide,{context:'潮水退去并不意味着故事结束，反而让被遮住的形状慢慢显现。歌曲写人与旧日相处的过程：不急着和解，只在安静里辨认自己留下的轮廓。'});
 Object.assign(songs.wind,{context:'长风不替人询问终点，只把路上的灯、雨、山与脚步一一托住。歌曲写远行，也写一种不必急着证明自己的选择，让辽阔景色服务于普通人的叙述。'});
 Object.assign(songs.joy,{context:'歌曲不把告别推向戏剧高潮，而把目光留给仍在生活的人：相逢、陪伴、承担，以及在漫长日子里重新找到一点欢喜。'});
+Object.assign(songs.lights,{title:'灯火照长安',sub:'一盏殿灯，照见制度深处未被听见的人'});
+Object.assign(songs.sunny,{title:'恰好天晴',sub:'雨停之后，人与日常重新靠近'});
+Object.assign(songs.city,{title:'风过暗城',sub:'风从不明亮的城里穿过'});
+Object.assign(songs.station,{title:'风从旧站台来',sub:'风经过旧站台，也经过记忆里没有说完的停留'});
+Object.assign(songs.moon,{title:'局中月',sub:'月光照见局中人，也照见局外的沉默'});
+Object.assign(songs.years,{title:'寻常岁月',sub:'普通日子里，时间真正留下的重量'});
+Object.assign(songs.tide,{title:'潮落以后',sub:'退潮之后，沙滩才显出真正的形状'});
+Object.assign(songs.wind,{title:'长风不问归期',sub:'不必急着抵达的远行'});
+Object.assign(songs.joy,{title:'几许平生欢',sub:'活着的人，也需要被相逢与陪伴托住'});

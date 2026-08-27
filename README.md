@@ -8,9 +8,8 @@
 
 ## 主页视觉预览
 
-![主页背景与唱片视觉](preview_assets/cover_background_v1.png)
+![音乐作品主页预览](homepage-preview.png)
 
-README 可以展示静态图片，但 GitHub 会限制 iframe 等交互式嵌入内容。需要完整体验时，请打开上面的 GitHub Pages 链接。
 
 ## 目录结构
 
