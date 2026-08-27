@@ -1,41 +1,48 @@
-# Aaron，Z作品 · milestone1
+# Aaron，Z作品 · 音乐创作档案
 
 ## 在线预览
 
 [打开音乐作品主页](https://aaronzhao84.github.io/music-portfolio/)
 
-GitHub README 不适合直接嵌入可交互的完整 HTML 页面：GitHub 会对 `iframe` 等嵌入内容进行安全过滤。这里使用在线预览链接，点击后进入完整的 GitHub Pages 页面；如果需要在 README 中展示静态效果，可以另外加入截图并链接到上面的页面。
+这是音乐创作主页的当前发布版本，包含 10 首作品、独立详情页、歌词、音频播放和 MP3 下载。
 
-这是音乐创作主页当前版本的完整快照，后续上传 GitHub Pages 时可将本目录内容作为网站根目录。
+## 主页视觉预览
 
-## 目录
+![主页背景与唱片视觉](preview_assets/cover_background_v1.png)
+
+README 可以展示静态图片，但 GitHub 会限制 iframe 等交互式嵌入内容。需要完整体验时，请打开上面的 GitHub Pages 链接。
+
+## 目录结构
 
 ```text
-milestone1/
-├─ index.html                 # GitHub Pages 默认入口
-├─ 主页预览_v1.css             # 基础布局与视觉样式
-├─ 主页预览_v2.css             # 当前版本的动画、指针、背景和细节样式
-├─ 主页预览_v2.js              # 作品数据、播放、暂停、歌词、下载与导航交互
-└─ preview_assets/
-   ├─ *.mp3                    # 10 首作品音频
-   ├─ *.txt                    # 10 首作品歌词
-   ├─ *.png                    # 10 首作品封面
-   ├─ cover_background_v1.png  # 页面背景
-   └─ 神念2.png                # 关于创作区域背景
+├─ index.html                 # 主页入口
+├─ site-base.css              # 主页基础布局与色彩
+├─ site.css                   # 主页交互与细节样式
+├─ site-online-parity.css     # 与线上确认版一致的背景覆盖样式
+├─ site.js                    # 主页播放、歌词、下载和详情页导航
+├─ detail/                    # 10 首歌曲详情页
+│  ├─ *.html
+│  ├─ detail.css
+│  ├─ detail.js
+│  ├─ detail-data.js
+│  └─ detail-lyrics.js        # 本地双击打开时的歌词兜底
+├─ assets/
+│  ├─ audio/                  # 作品音频
+│  ├─ covers/                 # 详情页封面
+│  └─ lyrics/                 # 格式化歌词文本
+└─ preview_assets/            # 主页视觉素材与主页播放资源
 ```
 
 ## 当前功能
 
 - 10 首作品按 Portfolio 顺序展示；
-- 作品卡片点击切换当前歌曲；
-- 点击唱片 A 播放或暂停；
-- 播放时唱片旋转，唱针落下，暂停时唱针抬起；
-- 详情区域显示封面、歌曲说明和歌词；
-- 支持歌词展开与播放同步；
-- 支持 MP3 播放与下载；
-- 支持作品档案、当前作品、关于创作页面锚点导航；
-- 页面使用相对路径，适合直接部署到 GitHub Pages。
+- 唱片播放与暂停、唱针和旋转动画；
+- 主页播放、歌词展开、MP3 下载；
+- 从主页进入对应歌曲详情页，并可返回主页；
+- 详情页包含歌曲信息、试听、歌词、创作背景与共鸣、声音质地；
+- 支持 GitHub Pages 和本地双击打开；
+- 使用相对路径，资源保持清晰分层，不打包压缩。
 
-## GitHub Pages 上传提示
+## 部署说明
 
-上传时将 `milestone1` 文件夹内的全部内容放在仓库根目录，确保 `index.html` 与 `preview_assets` 位于同一级目录。不要只上传 HTML、CSS、JS，否则图片、歌词和 MP3 无法加载。
+网站根目录必须同时包含 `index.html`、主页 CSS/JS、`detail`、`assets` 和 `preview_assets`。不要只上传 HTML 文件，否则图片、音频和歌词无法加载。
