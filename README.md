@@ -8,7 +8,7 @@
 
 ## 主页视觉预览
 
-![音乐作品主页预览](homepage-preview.png)
+![音乐作品主页预览](homepage-preview-2026-08-27.png)
 
 
 ## 目录结构
