@@ -32,3 +32,4 @@ Object.assign(songs.years,{title:'寻常岁月',sub:'普通日子里，时间真
 Object.assign(songs.tide,{title:'潮落以后',sub:'退潮之后，沙滩才显出真正的形状'});
 Object.assign(songs.wind,{title:'长风不问归期',sub:'不必急着抵达的远行'});
 Object.assign(songs.joy,{title:'几许平生欢',sub:'活着的人，也需要被相逢与陪伴托住'});
+Object.assign(songs.moon,{audio:'05-moon-duet.mp3'});
